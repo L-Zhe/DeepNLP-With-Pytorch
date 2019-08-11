@@ -16,7 +16,7 @@ NUM_LAYER = 1
 LR = 0.01
 SEQ_LENGTH = 30 # for bptt
 BATCH_SIZE = 20
-EPOCH = 40
+EPOCH = 40‘
 RESCHEDULED = False
 
 train_data, vocab_train = creatDataSet('./data', 'ptb.train.txt')
